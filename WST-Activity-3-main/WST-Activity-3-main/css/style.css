@@ -1,0 +1,181 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*********************************/
+body {font-family: arial;}
+.main-container{
+  max-width: 1440px; /* Adjust as needed for your design */
+  margin: 0 auto; /* Centers the container horizontally */
+  padding: 0 20px; /* Adds padding on the sides for smaller screens */
+  width: 100%; /* Ensures it uses full width on very small screens */
+}
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  /*background-color: dodgerblue;*/
+  padding: 5px;
+  gap: 5px;
+}
+.container-three-columns {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	margin: 0px 50px;
+	gap: 5px;
+	justify-items: center;
+}
+.container div {
+  /*background-color: #f1f1f1;*/
+  color: #000;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.navi li {
+	list-style: none;
+    float: left;
+    width: 200px;
+}
+
+.container_yellow {
+	background: #FCC302;
+}
+
+.main-title {
+	font-size: 58px;
+    font-weight: 800;
+    text-align: left;
+    margin-top: 99px;
+    margin-left: 99px;
+    margin-bottom: 40px;
+    color: white;
+	width: 650px;
+}
+
+.main-sub-desc{
+	font-size: 30px;
+	text-align: left;
+	color: white;
+	margin-left: 99px;
+	margin-right: 60px;
+	width: 650px;
+}
+
+.btn{
+	display: inline-block;
+	padding: 20px;
+	font-size: 20px;
+	margin-right: 25px;
+	color: white;
+	border-radius: 5px;
+	font-weight: bold;
+	position: relative;
+	right: 160px;
+	top: 50px;
+}
+
+.btn-main-service{
+	border: solid;
+}
+
+.btn-contact{
+	background-color: #00BECA;
+}
+
+.main-subtitle{
+	font-size: 45px;
+	font-weight: bold;
+	color: #313244;
+	text-align: left;
+	margin-top: 99px;
+	margin-left: 99px;
+	margin-bottom: 40px;
+	width: 550px;
+}
+
+.main-sub-sub-desc{
+	font-size: 30px;
+	text-align: left;
+	margin-left: 99px;
+	color: #313244;
+	width: 550px;
+}
+
+.btn-service{
+	right: 180px;
+}
+
+.title{
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+.second-panel-pictures{
+	align-items: center;
+	align-content: center;
+}
+.second-panel-title{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 25px;
+}
+.second-panel-desc{
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	width: 65%;
+	margin-bottom: 60px;
+}
